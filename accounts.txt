@@ -1,0 +1,4 @@
+1 Twokoko Chaw saving 5000
+2 John Wick saving 40000
+3 Twokoko Chaw checking 5000
+4 John Wick checking 50000
