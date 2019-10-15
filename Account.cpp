@@ -35,10 +35,10 @@ void Account::deposit(double amount)  //deposit cash
 }
 void Account::showDetails()   //display details
 {
-	cout << "\n\nId of Owner: " << this->owner.getId();
-	cout << "\nAccount Owner Name : " << this->owner.getName()<<" "<<this->owner.getLName();
-	cout << "\nAccount Type : " << this->owner.getAccountType();
-	cout << "\n Account Balance : " << this->balance<<"\n";
+	cout << "\n\t|Id of Owner: " << this->owner.getId();
+	cout << "\n\t|Account Owner Name: " << this->owner.getName()<<" "<<this->owner.getLName();
+	cout << "\n\t|Account Type: " << this->owner.getAccountType();
+	cout << "\n\t|Account Balance: " << this->balance<<"\n";
 
 }
 void Account::save()   //writing to database
