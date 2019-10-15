@@ -15,9 +15,10 @@ Checking::Checking(int rate, string name,string lname,double b,int id) :Account(
 }
 void Checking::showDetails()
 {
-	cout << "\n\nId of Owner: " << this->owner.getId();
-	cout << "\nAccount Owner Name : " << this->owner.getName() << " " << this->owner.getLName();
-	cout << "\nAccount Type : " << this->owner.getAccountType();
-	cout << "\nAccount Balance : " << this->balance;
-	cout << "\nAccount Interest : " << this->interestRate << "%\n";
+	cout << "\t Id of Owner: " << this->owner.getId()
+		 << "\n\t Account Owner Name: " << this->owner.getName() << " " << this->owner.getLName()
+		 << "\n\t Account Type: " << this->owner.getAccountType()
+		 << "\n\t Account Balance: " << this->balance
+		 << "\n\t Account Interest: " << this->interestRate << "%"
+		 << "\n\t+-----------------------------------------------+\n";
 }
